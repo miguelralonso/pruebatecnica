@@ -1,0 +1,178 @@
+body{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #555;
+	background-color: #E6ECF0;
+	margin: 0px;
+}
+
+header{
+	background-color: #1DA1F2;
+	color: #FFF;
+}
+
+header div{
+	max-width: 1200px;
+	margin: auto;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+nav{
+	background-color: #FFF;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.10);
+}
+
+nav div{
+	max-width: 1200px;
+	margin: auto;
+	font-weight: bold;
+	padding: 10px;
+	text-align: right;
+}
+
+#cargarMas{
+	background-color: #FFCC00;
+	color: #FFF;
+	padding: 4px 10px;
+	border-radius: 3px;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#cargarMas:hover{
+	color: #222;
+}
+
+#contenedor{
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px 10px;
+	display: flex;
+}
+
+#graficoFuentes, #graficoHoras{
+	max-width: 600px;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+#listado-tweets{
+	width: 600px;
+	max-height: 720px;
+	overflow: auto;
+}
+
+#listado-tweets > div{
+
+	background-color: #FFF;
+	margin: 0px;
+	padding: 10px;
+	display: flex;
+	border-bottom: 1px #F4F4F8 solid;
+}
+
+#listado-tweets div:first-child{
+	font-size: 15px;
+	font-weight: 600;
+}
+
+#graficas{
+	background-color: #FFF;
+	margin-left: 10px;
+	width: 600px;
+}
+
+#graficas .oculta{
+	display: none !important;
+}
+
+#menuGraficas{
+	background-color: #1DA1F2;
+}
+
+#menuGraficas > span{
+	padding: 6px 10px;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#menuGraficas span.activa{
+
+	color: #1DA1F2;
+	background-color: #FFF;
+}
+
+.imagenUsuario{
+	position: relative;
+	margin-right: 10px;
+}
+
+.imagenUsuario img{
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+
+.textoTweet{
+	line-height: 1.5;
+	position: relative;
+	flex-grow: 1;
+}
+
+.hashtag{
+	text-decoration: none;
+	color: #1DA1F2;
+	font-weight: 600;
+}
+
+.mencion{
+	text-decoration: none;
+	color: #1DA1F2;
+}
+
+.hashtag:hover, .mencion:hover{
+	text-decoration: underline;
+}
+
+.nombreUsuario{
+	display: block;
+	color: #A5A5A5;
+	margin-bottom: 3px;
+}
+
+.nombreUsuario a{
+	text-decoration: none;
+	color: #222;
+	font-weight: 600;
+}
+
+.media{
+	max-width: 492px;
+	margin: 10px 0px;
+	max-height: 492px;
+	overflow: hidden;
+}
+
+.media img{
+	width: 100%;
+	border-radius: 4px;
+}
+
+.url{
+	text-decoration: none;
+	font-weight: 600;
+	color: #FFCC00;
+}
+
+.sentimiento{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 20px;
+	height: 20px;
+}
